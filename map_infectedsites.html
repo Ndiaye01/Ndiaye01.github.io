@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_e7ba5e84d190441a85d5ade74be3bc77 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e7ba5e84d190441a85d5ade74be3bc77" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_e7ba5e84d190441a85d5ade74be3bc77 = L.map(
+                                  'map_e7ba5e84d190441a85d5ade74be3bc77',
+                                  {center: [14.693425,-17.447938],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_218fd08bdfc74b47a262fe152b0118fc = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+        
+    
+
+            var marker_383906055e434127a76eb1225babd3e7 = L.marker(
+                [14.7863883,-17.320695800000003],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_cd1f32fc595e4ac98a1b9e513455c93c = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_383906055e434127a76eb1225babd3e7.setIcon(icon_cd1f32fc595e4ac98a1b9e513455c93c);
+            
+    
+            var popup_5564628d023b40a59bc0e5f762fa925f = L.popup({maxWidth: '300'});
+
+            
+                var html_e5c9833151e849a9bff6a9433fae2723 = $('<div id="html_e5c9833151e849a9bff6a9433fae2723" style="width: 100.0%; height: 100.0%;">Keur Massar, Niayes</div>')[0];
+                popup_5564628d023b40a59bc0e5f762fa925f.setContent(html_e5c9833151e849a9bff6a9433fae2723);
+            
+
+            marker_383906055e434127a76eb1225babd3e7.bindPopup(popup_5564628d023b40a59bc0e5f762fa925f);
+
+            
+        
+    
+
+            var marker_de187101aa444fe5a05c5e555108daa6 = L.marker(
+                [14.7202301,-17.184827300000002],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_74e3f46d42aa40d39dcd6e0dc9aac556 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_de187101aa444fe5a05c5e555108daa6.setIcon(icon_74e3f46d42aa40d39dcd6e0dc9aac556);
+            
+    
+            var popup_4093056776994629be52c2848db61fa8 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e1cf3276f1543369f18a762162450dc = $('<div id="html_4e1cf3276f1543369f18a762162450dc" style="width: 100.0%; height: 100.0%;">Diamniadio, Sangalkam</div>')[0];
+                popup_4093056776994629be52c2848db61fa8.setContent(html_4e1cf3276f1543369f18a762162450dc);
+            
+
+            marker_de187101aa444fe5a05c5e555108daa6.bindPopup(popup_4093056776994629be52c2848db61fa8);
+
+            
+        
+    
+
+            var marker_d497e8c4525a4437a260e66f602247ef = L.marker(
+                [14.7155603,-17.2796838],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_0b871bb33b0844138d17c88b391bae18 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d497e8c4525a4437a260e66f602247ef.setIcon(icon_0b871bb33b0844138d17c88b391bae18);
+            
+    
+            var popup_e3188bb250c84e7b88f49b6993d24893 = L.popup({maxWidth: '300'});
+
+            
+                var html_85e5d2d9e5574a27b9558b6feb7f0fc0 = $('<div id="html_85e5d2d9e5574a27b9558b6feb7f0fc0" style="width: 100.0%; height: 100.0%;">Rufisque, Rufisque</div>')[0];
+                popup_e3188bb250c84e7b88f49b6993d24893.setContent(html_85e5d2d9e5574a27b9558b6feb7f0fc0);
+            
+
+            marker_d497e8c4525a4437a260e66f602247ef.bindPopup(popup_e3188bb250c84e7b88f49b6993d24893);
+
+            
+        
+    
+
+            var marker_47024afd707348c58a5aa13f916c1c56 = L.marker(
+                [14.7552617,-17.4044798],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_3b2bcb7bf8f248a18a03496f2a00c130 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_47024afd707348c58a5aa13f916c1c56.setIcon(icon_3b2bcb7bf8f248a18a03496f2a00c130);
+            
+    
+            var popup_cc607fb310fe4f169a4c210185cea1e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_fad6246bbfe4419f9fb3768206deaf05 = $('<div id="html_fad6246bbfe4419f9fb3768206deaf05" style="width: 100.0%; height: 100.0%;">Pikine, Dagoudane</div>')[0];
+                popup_cc607fb310fe4f169a4c210185cea1e8.setContent(html_fad6246bbfe4419f9fb3768206deaf05);
+            
+
+            marker_47024afd707348c58a5aa13f916c1c56.bindPopup(popup_cc607fb310fe4f169a4c210185cea1e8);
+
+            
+        
+    
+
+            var marker_367efd0bc682445487b69ea25d76da82 = L.marker(
+                [14.757339100000001,-17.378268300000002],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_2bb99797bb0f4b72820d374eceb6894b = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_367efd0bc682445487b69ea25d76da82.setIcon(icon_2bb99797bb0f4b72820d374eceb6894b);
+            
+    
+            var popup_45047aaf9f38433b9118ab474b3fdae8 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6aac728580549768d31b73ad4fda7b6 = $('<div id="html_b6aac728580549768d31b73ad4fda7b6" style="width: 100.0%; height: 100.0%;">Thiaroye Gare, Thiaroye</div>')[0];
+                popup_45047aaf9f38433b9118ab474b3fdae8.setContent(html_b6aac728580549768d31b73ad4fda7b6);
+            
+
+            marker_367efd0bc682445487b69ea25d76da82.bindPopup(popup_45047aaf9f38433b9118ab474b3fdae8);
+
+            
+        
+    
+
+            var marker_0803f816640948769750dfd0f3b0bb38 = L.marker(
+                [14.7722048,-17.3668812],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_9d67823b81d24b9491f47b8919eb99ac = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0803f816640948769750dfd0f3b0bb38.setIcon(icon_9d67823b81d24b9491f47b8919eb99ac);
+            
+    
+            var popup_853a6e4acf724a648b1dde0082cb7d0b = L.popup({maxWidth: '300'});
+
+            
+                var html_4930f28e7db8453a9c989ce0686031d0 = $('<div id="html_4930f28e7db8453a9c989ce0686031d0" style="width: 100.0%; height: 100.0%;">Yeumbeul Sud, Niayes</div>')[0];
+                popup_853a6e4acf724a648b1dde0082cb7d0b.setContent(html_4930f28e7db8453a9c989ce0686031d0);
+            
+
+            marker_0803f816640948769750dfd0f3b0bb38.bindPopup(popup_853a6e4acf724a648b1dde0082cb7d0b);
+
+            
+        
+    
+
+            var marker_9000dc08f0d24d6db11b9a03620b19b7 = L.marker(
+                [14.7298517,-17.3301944],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_a1165e39244c4896af3de0c2eaa37a0d = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9000dc08f0d24d6db11b9a03620b19b7.setIcon(icon_a1165e39244c4896af3de0c2eaa37a0d);
+            
+    
+            var popup_747ec84b4a86445693fc39c5e85f6298 = L.popup({maxWidth: '300'});
+
+            
+                var html_f2be5236ebda47029dd4cead63eabb46 = $('<div id="html_f2be5236ebda47029dd4cead63eabb46" style="width: 100.0%; height: 100.0%;">Mbao, Thiaroye</div>')[0];
+                popup_747ec84b4a86445693fc39c5e85f6298.setContent(html_f2be5236ebda47029dd4cead63eabb46);
+            
+
+            marker_9000dc08f0d24d6db11b9a03620b19b7.bindPopup(popup_747ec84b4a86445693fc39c5e85f6298);
+
+            
+        
+    
+
+            var marker_3e76d3833b0d4f2f97dccb296ac5ad1a = L.marker(
+                [14.682872,-17.4545829],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_c24cc87e48e648699c91b282f3c7370e = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3e76d3833b0d4f2f97dccb296ac5ad1a.setIcon(icon_c24cc87e48e648699c91b282f3c7370e);
+            
+    
+            var popup_7922a98dde224293a92e0201d5c43b65 = L.popup({maxWidth: '300'});
+
+            
+                var html_960ac8442b41453da0ecf55959d347a3 = $('<div id="html_960ac8442b41453da0ecf55959d347a3" style="width: 100.0%; height: 100.0%;">Médina, Dakar-Plateau</div>')[0];
+                popup_7922a98dde224293a92e0201d5c43b65.setContent(html_960ac8442b41453da0ecf55959d347a3);
+            
+
+            marker_3e76d3833b0d4f2f97dccb296ac5ad1a.bindPopup(popup_7922a98dde224293a92e0201d5c43b65);
+
+            
+        
+    
+
+            var marker_4ba315a31ecc4b1d9e90851fc86f3af8 = L.marker(
+                [14.682904,-17.4598697],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_837caef8e22345e29461f459c46de100 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ba315a31ecc4b1d9e90851fc86f3af8.setIcon(icon_837caef8e22345e29461f459c46de100);
+            
+    
+            var popup_9eae1a17163146f387e929b3323ec691 = L.popup({maxWidth: '300'});
+
+            
+                var html_789fc2239dfb478e9f42de4866865a2f = $('<div id="html_789fc2239dfb478e9f42de4866865a2f" style="width: 100.0%; height: 100.0%;">Geule Tapé, Dakar-Plateau</div>')[0];
+                popup_9eae1a17163146f387e929b3323ec691.setContent(html_789fc2239dfb478e9f42de4866865a2f);
+            
+
+            marker_4ba315a31ecc4b1d9e90851fc86f3af8.bindPopup(popup_9eae1a17163146f387e929b3323ec691);
+
+            
+        
+    
+
+            var marker_4c6d8a1e5a4343b681630bbe594fcc0c = L.marker(
+                [14.690826500000002,-17.4570883],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_86c69b8bfd2e4bc18c4a61da3b651505 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c6d8a1e5a4343b681630bbe594fcc0c.setIcon(icon_86c69b8bfd2e4bc18c4a61da3b651505);
+            
+    
+            var popup_39694ec453ed475aac7a0123c43bb313 = L.popup({maxWidth: '300'});
+
+            
+                var html_8596e8d54784428eb4bb7d622a3050f7 = $('<div id="html_8596e8d54784428eb4bb7d622a3050f7" style="width: 100.0%; height: 100.0%;">Fass, Dakar-Plateau</div>')[0];
+                popup_39694ec453ed475aac7a0123c43bb313.setContent(html_8596e8d54784428eb4bb7d622a3050f7);
+            
+
+            marker_4c6d8a1e5a4343b681630bbe594fcc0c.bindPopup(popup_39694ec453ed475aac7a0123c43bb313);
+
+            
+        
+    
+
+            var marker_08d665041c764b469bb41535537bd822 = L.marker(
+                [14.6954393,-17.4470818],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_a92ed7713fa14e699f21a0c3691244d5 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_08d665041c764b469bb41535537bd822.setIcon(icon_a92ed7713fa14e699f21a0c3691244d5);
+            
+    
+            var popup_43ff314d176e4e3cb9ddc322866d8a78 = L.popup({maxWidth: '300'});
+
+            
+                var html_84c9da8c3a334d399568427be0691445 = $('<div id="html_84c9da8c3a334d399568427be0691445" style="width: 100.0%; height: 100.0%;">Colobane, Dakar-Plateau</div>')[0];
+                popup_43ff314d176e4e3cb9ddc322866d8a78.setContent(html_84c9da8c3a334d399568427be0691445);
+            
+
+            marker_08d665041c764b469bb41535537bd822.bindPopup(popup_43ff314d176e4e3cb9ddc322866d8a78);
+
+            
+        
+    
+
+            var marker_780795445f224b8caf9126bad2d6f613 = L.marker(
+                [14.660969,-17.437154],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_71df426297d64cce9588d1efeff8b8c8 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_780795445f224b8caf9126bad2d6f613.setIcon(icon_71df426297d64cce9588d1efeff8b8c8);
+            
+    
+            var popup_40fd02b2b51c453b9e5e843fe6c0a696 = L.popup({maxWidth: '300'});
+
+            
+                var html_49302d386724490a93275427020fda84 = $('<div id="html_49302d386724490a93275427020fda84" style="width: 100.0%; height: 100.0%;">Plateau, Dakar-Plateau</div>')[0];
+                popup_40fd02b2b51c453b9e5e843fe6c0a696.setContent(html_49302d386724490a93275427020fda84);
+            
+
+            marker_780795445f224b8caf9126bad2d6f613.bindPopup(popup_40fd02b2b51c453b9e5e843fe6c0a696);
+
+            
+        
+    
+
+            var marker_623b9865b98447b9a3056ae868e8eb42 = L.marker(
+                [14.775357099999999,-17.417768],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_57ae20c311614a7dbd16ac5725397f35 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_623b9865b98447b9a3056ae868e8eb42.setIcon(icon_57ae20c311614a7dbd16ac5725397f35);
+            
+    
+            var popup_ab8ba8a55f00453996ae645de3b2fe46 = L.popup({maxWidth: '300'});
+
+            
+                var html_58d522798b0c4984917636b9e6df3851 = $('<div id="html_58d522798b0c4984917636b9e6df3851" style="width: 100.0%; height: 100.0%;">Golf Sud, Guediawaye</div>')[0];
+                popup_ab8ba8a55f00453996ae645de3b2fe46.setContent(html_58d522798b0c4984917636b9e6df3851);
+            
+
+            marker_623b9865b98447b9a3056ae868e8eb42.bindPopup(popup_ab8ba8a55f00453996ae645de3b2fe46);
+
+            
+        
+    
+
+            var marker_12369480a8824bab8edd4fc69546bb7c = L.marker(
+                [14.786962300000003,-17.378874399999997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_b2514661eaac4d08b8121116a01dea27 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_12369480a8824bab8edd4fc69546bb7c.setIcon(icon_b2514661eaac4d08b8121116a01dea27);
+            
+    
+            var popup_f4dc6a9b8dcb4be888711a83f0ad1c92 = L.popup({maxWidth: '300'});
+
+            
+                var html_ff7d079ebba04d5980807ff6e88400c1 = $('<div id="html_ff7d079ebba04d5980807ff6e88400c1" style="width: 100.0%; height: 100.0%;">Wakhinane Nimzatt, Guediawaye</div>')[0];
+                popup_f4dc6a9b8dcb4be888711a83f0ad1c92.setContent(html_ff7d079ebba04d5980807ff6e88400c1);
+            
+
+            marker_12369480a8824bab8edd4fc69546bb7c.bindPopup(popup_f4dc6a9b8dcb4be888711a83f0ad1c92);
+
+            
+        
+    
+
+            var marker_2bbbde678b614d949fe5ccd90ab0c477 = L.marker(
+                [14.772091399999999,-17.3787904],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_83a966926ae244af896b58fc435bef00 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2bbbde678b614d949fe5ccd90ab0c477.setIcon(icon_83a966926ae244af896b58fc435bef00);
+            
+    
+            var popup_0aba3e0a0c944d61a2d67e72b0b0a440 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d9d325be4c945b3873a1883c4862427 = $('<div id="html_5d9d325be4c945b3873a1883c4862427" style="width: 100.0%; height: 100.0%;">Ndiarème Limamoulaye, Guediawaye</div>')[0];
+                popup_0aba3e0a0c944d61a2d67e72b0b0a440.setContent(html_5d9d325be4c945b3873a1883c4862427);
+            
+
+            marker_2bbbde678b614d949fe5ccd90ab0c477.bindPopup(popup_0aba3e0a0c944d61a2d67e72b0b0a440);
+
+            
+        
+    
+
+            var marker_af1e8028d6284f34a29aab68105c2e1d = L.marker(
+                [14.7460068,-17.4951018],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_90e41bf81c554a46a189bce591f82dc0 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af1e8028d6284f34a29aab68105c2e1d.setIcon(icon_90e41bf81c554a46a189bce591f82dc0);
+            
+    
+            var popup_154afd2498794ef1a41caf24d9af2617 = L.popup({maxWidth: '300'});
+
+            
+                var html_6bd7edb4539f4bc7bf3bd84026f9987b = $('<div id="html_6bd7edb4539f4bc7bf3bd84026f9987b" style="width: 100.0%; height: 100.0%;">Yoff, Almadies</div>')[0];
+                popup_154afd2498794ef1a41caf24d9af2617.setContent(html_6bd7edb4539f4bc7bf3bd84026f9987b);
+            
+
+            marker_af1e8028d6284f34a29aab68105c2e1d.bindPopup(popup_154afd2498794ef1a41caf24d9af2617);
+
+            
+        
+    
+
+            var marker_edb724aaad574758ae779b4e7bb75b05 = L.marker(
+                [14.7074581,-17.4829161],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_75c8cb80f3bc4704b9e313e52943e050 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_edb724aaad574758ae779b4e7bb75b05.setIcon(icon_75c8cb80f3bc4704b9e313e52943e050);
+            
+    
+            var popup_d582fe7759744439a913f2960c59d26c = L.popup({maxWidth: '300'});
+
+            
+                var html_137607d694114816a8aaa5ad9983b8cd = $('<div id="html_137607d694114816a8aaa5ad9983b8cd" style="width: 100.0%; height: 100.0%;">Mermoz, Almadies</div>')[0];
+                popup_d582fe7759744439a913f2960c59d26c.setContent(html_137607d694114816a8aaa5ad9983b8cd);
+            
+
+            marker_edb724aaad574758ae779b4e7bb75b05.bindPopup(popup_d582fe7759744439a913f2960c59d26c);
+
+            
+        
+    
+
+            var marker_a1c3bad3fff44d49b0efc226f5159270 = L.marker(
+                [14.7598766,-17.450511499999998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_24fef9fcb8bc42f4b8e76ac9c8dc037b = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a1c3bad3fff44d49b0efc226f5159270.setIcon(icon_24fef9fcb8bc42f4b8e76ac9c8dc037b);
+            
+    
+            var popup_e7b9751fab3a4588880bcffd94a48687 = L.popup({maxWidth: '300'});
+
+            
+                var html_96baf03fc70d443bb829e28330fdab68 = $('<div id="html_96baf03fc70d443bb829e28330fdab68" style="width: 100.0%; height: 100.0%;">Parcelles Assainies, Parcelles Assainies</div>')[0];
+                popup_e7b9751fab3a4588880bcffd94a48687.setContent(html_96baf03fc70d443bb829e28330fdab68);
+            
+
+            marker_a1c3bad3fff44d49b0efc226f5159270.bindPopup(popup_e7b9751fab3a4588880bcffd94a48687);
+
+            
+        
+    
+
+            var marker_86137592990b45958325dfca0f9e07c7 = L.marker(
+                [14.756342300000002,-17.4240377],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_6b37dcbbd24543c49e39a4edec90d3fb = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_86137592990b45958325dfca0f9e07c7.setIcon(icon_6b37dcbbd24543c49e39a4edec90d3fb);
+            
+    
+            var popup_f6d46108ace84fdf9472423510ab573e = L.popup({maxWidth: '300'});
+
+            
+                var html_83b3a6ecb91948f8be8af583d719c986 = $('<div id="html_83b3a6ecb91948f8be8af583d719c986" style="width: 100.0%; height: 100.0%;">Pikine Ouest, Dagoudane</div>')[0];
+                popup_f6d46108ace84fdf9472423510ab573e.setContent(html_83b3a6ecb91948f8be8af583d719c986);
+            
+
+            marker_86137592990b45958325dfca0f9e07c7.bindPopup(popup_f6d46108ace84fdf9472423510ab573e);
+
+            
+        
+    
+
+            var marker_6d1cca73409344ec9e24fd626e616de4 = L.marker(
+                [14.7209432,-17.4555467],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_11e56f415e204da5a9e0bcb734bfb12a = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6d1cca73409344ec9e24fd626e616de4.setIcon(icon_11e56f415e204da5a9e0bcb734bfb12a);
+            
+    
+            var popup_1d5f2bb648744df5be04c19fbb6a7804 = L.popup({maxWidth: '300'});
+
+            
+                var html_fce7d54118644534bb153d9c2c9657cf = $('<div id="html_fce7d54118644534bb153d9c2c9657cf" style="width: 100.0%; height: 100.0%;">Dieuppeul, Grand-Dakar</div>')[0];
+                popup_1d5f2bb648744df5be04c19fbb6a7804.setContent(html_fce7d54118644534bb153d9c2c9657cf);
+            
+
+            marker_6d1cca73409344ec9e24fd626e616de4.bindPopup(popup_1d5f2bb648744df5be04c19fbb6a7804);
+
+            
+        
+    
+
+            var marker_4a72cba12e5545aaa46c69825a405635 = L.marker(
+                [14.725885,-17.4501812],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_101d1d73158a4a14b8904d21730c4750 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a72cba12e5545aaa46c69825a405635.setIcon(icon_101d1d73158a4a14b8904d21730c4750);
+            
+    
+            var popup_0ba41a03282044d4baf7fd56655c8384 = L.popup({maxWidth: '300'});
+
+            
+                var html_90ec7604a5574939a55ad147d88a22d5 = $('<div id="html_90ec7604a5574939a55ad147d88a22d5" style="width: 100.0%; height: 100.0%;">Derklé, Grand-Dakar</div>')[0];
+                popup_0ba41a03282044d4baf7fd56655c8384.setContent(html_90ec7604a5574939a55ad147d88a22d5);
+            
+
+            marker_4a72cba12e5545aaa46c69825a405635.bindPopup(popup_0ba41a03282044d4baf7fd56655c8384);
+
+            
+        
+    
+
+            var marker_1ec35235fe3843e2999b731c391161be = L.marker(
+                [14.705619,-17.4374607],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_b318e2e174424191b23a65b8e719a6ce = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1ec35235fe3843e2999b731c391161be.setIcon(icon_b318e2e174424191b23a65b8e719a6ce);
+            
+    
+            var popup_b90437802d124911b0e99362d6454f3e = L.popup({maxWidth: '300'});
+
+            
+                var html_111aee3891394e25a3e7b523d211e047 = $('<div id="html_111aee3891394e25a3e7b523d211e047" style="width: 100.0%; height: 100.0%;">Hann Bel-Air, Grand-Dakar</div>')[0];
+                popup_b90437802d124911b0e99362d6454f3e.setContent(html_111aee3891394e25a3e7b523d211e047);
+            
+
+            marker_1ec35235fe3843e2999b731c391161be.bindPopup(popup_b90437802d124911b0e99362d6454f3e);
+
+            
+        
+    
+
+            var marker_7f584e1063b14419a98f5e8330258c84 = L.marker(
+                [14.750303,-17.438029800000002],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_504e1159165e4aebaf2479381aa76436 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f584e1063b14419a98f5e8330258c84.setIcon(icon_504e1159165e4aebaf2479381aa76436);
+            
+    
+            var popup_63d7cd6f8dc241a8adaf9248c9deeb22 = L.popup({maxWidth: '300'});
+
+            
+                var html_0fe8ca5882f84491b1dc033fd2828f9d = $('<div id="html_0fe8ca5882f84491b1dc033fd2828f9d" style="width: 100.0%; height: 100.0%;">Soprim, Parcelles Assainies</div>')[0];
+                popup_63d7cd6f8dc241a8adaf9248c9deeb22.setContent(html_0fe8ca5882f84491b1dc033fd2828f9d);
+            
+
+            marker_7f584e1063b14419a98f5e8330258c84.bindPopup(popup_63d7cd6f8dc241a8adaf9248c9deeb22);
+
+            
+        
+    
+
+            var marker_93fbd945dd214c3392457abd9dc8fd65 = L.marker(
+                [14.7072737,-17.4539059],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_15552a4b3ed14ec39a31c695d7b0b298 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_93fbd945dd214c3392457abd9dc8fd65.setIcon(icon_15552a4b3ed14ec39a31c695d7b0b298);
+            
+    
+            var popup_81a5b6e501d34ee6b07de33fe64db216 = L.popup({maxWidth: '300'});
+
+            
+                var html_36a49cfcb10a4508b0791d225bf135a4 = $('<div id="html_36a49cfcb10a4508b0791d225bf135a4" style="width: 100.0%; height: 100.0%;">Niary Tally, Grand-Dakar</div>')[0];
+                popup_81a5b6e501d34ee6b07de33fe64db216.setContent(html_36a49cfcb10a4508b0791d225bf135a4);
+            
+
+            marker_93fbd945dd214c3392457abd9dc8fd65.bindPopup(popup_81a5b6e501d34ee6b07de33fe64db216);
+
+            
+        
+    
+
+            var marker_87c6a463f420498daf92067b887824b0 = L.marker(
+                [14.6831562,-17.4464822],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_12751fc808184a3cba622636e12791c4 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_87c6a463f420498daf92067b887824b0.setIcon(icon_12751fc808184a3cba622636e12791c4);
+            
+    
+            var popup_4fa1a0cb884e46fa92ea45314ebe94f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_fb2d747da35b4c9a86076e112f0b7400 = $('<div id="html_fb2d747da35b4c9a86076e112f0b7400" style="width: 100.0%; height: 100.0%;">Niayes-Thioker, Dakar-Plateau</div>')[0];
+                popup_4fa1a0cb884e46fa92ea45314ebe94f0.setContent(html_fb2d747da35b4c9a86076e112f0b7400);
+            
+
+            marker_87c6a463f420498daf92067b887824b0.bindPopup(popup_4fa1a0cb884e46fa92ea45314ebe94f0);
+
+            
+        
+    
+
+            var marker_92f21093749f45519385b91c1023f0d7 = L.marker(
+                [14.7687671,-17.4184561],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_a0345f5faf4c4b3aab25e984788569e1 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_92f21093749f45519385b91c1023f0d7.setIcon(icon_a0345f5faf4c4b3aab25e984788569e1);
+            
+    
+            var popup_c6c60744f6954cc791f994995d0c83d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_aff71ec3f6134dcc9f6b30f8ca3bd3aa = $('<div id="html_aff71ec3f6134dcc9f6b30f8ca3bd3aa" style="width: 100.0%; height: 100.0%;">Guédiawaye, Guediawaye</div>')[0];
+                popup_c6c60744f6954cc791f994995d0c83d5.setContent(html_aff71ec3f6134dcc9f6b30f8ca3bd3aa);
+            
+
+            marker_92f21093749f45519385b91c1023f0d7.bindPopup(popup_c6c60744f6954cc791f994995d0c83d5);
+
+            
+        
+    
+
+            var marker_19b978eae9dc4625ae0f1dc07ca268ff = L.marker(
+                [14.778993300000002,-17.228261],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_30ed578432394996a68ec9f600fb59e0 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_19b978eae9dc4625ae0f1dc07ca268ff.setIcon(icon_30ed578432394996a68ec9f600fb59e0);
+            
+    
+            var popup_9149f867fd6f4799af65f33e78702f64 = L.popup({maxWidth: '300'});
+
+            
+                var html_c71504580d214690830ffde00b417b84 = $('<div id="html_c71504580d214690830ffde00b417b84" style="width: 100.0%; height: 100.0%;">Sangalkham, Sangalkam</div>')[0];
+                popup_9149f867fd6f4799af65f33e78702f64.setContent(html_c71504580d214690830ffde00b417b84);
+            
+
+            marker_19b978eae9dc4625ae0f1dc07ca268ff.bindPopup(popup_9149f867fd6f4799af65f33e78702f64);
+
+            
+        
+    
+
+            var marker_e11e119cfb7f4c2a88c3103ad76e8363 = L.marker(
+                [14.7475649,-17.448711499999998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_2b7f9e645557409e85e6ab66922c7158 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e11e119cfb7f4c2a88c3103ad76e8363.setIcon(icon_2b7f9e645557409e85e6ab66922c7158);
+            
+    
+            var popup_7a9f4bcd68454b09b5f7d3f017896492 = L.popup({maxWidth: '300'});
+
+            
+                var html_168479f3cc21429a847a0d5c3671a9e9 = $('<div id="html_168479f3cc21429a847a0d5c3671a9e9" style="width: 100.0%; height: 100.0%;">Grand Médina, Parcelles Assainies</div>')[0];
+                popup_7a9f4bcd68454b09b5f7d3f017896492.setContent(html_168479f3cc21429a847a0d5c3671a9e9);
+            
+
+            marker_e11e119cfb7f4c2a88c3103ad76e8363.bindPopup(popup_7a9f4bcd68454b09b5f7d3f017896492);
+
+            
+        
+    
+
+            var marker_af50c184fdfd405783c3c4fef0700499 = L.marker(
+                [14.7494323,-17.4476755],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_a2e22c5a19ec48a1adea962e2abcc017 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af50c184fdfd405783c3c4fef0700499.setIcon(icon_a2e22c5a19ec48a1adea962e2abcc017);
+            
+    
+            var popup_e3d84a4e2ab24a1f925a2a63d8381dcd = L.popup({maxWidth: '300'});
+
+            
+                var html_f80d5cdea39140f484d6a48f51496619 = $('<div id="html_f80d5cdea39140f484d6a48f51496619" style="width: 100.0%; height: 100.0%;">Patte d&#39;Oie, Parcelles Assainies</div>')[0];
+                popup_e3d84a4e2ab24a1f925a2a63d8381dcd.setContent(html_f80d5cdea39140f484d6a48f51496619);
+            
+
+            marker_af50c184fdfd405783c3c4fef0700499.bindPopup(popup_e3d84a4e2ab24a1f925a2a63d8381dcd);
+
+            
+        
+    
+
+            var marker_aac8ca29379546049f718c01a5059a4c = L.marker(
+                [14.7275717,-17.4389359],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_7478b97b13e74d798effda5b13d02fc3 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aac8ca29379546049f718c01a5059a4c.setIcon(icon_7478b97b13e74d798effda5b13d02fc3);
+            
+    
+            var popup_38075fefc64a42edaf78c0a6ff47dc88 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a17d7ffd23e49ea9608619f1d99b4c8 = $('<div id="html_6a17d7ffd23e49ea9608619f1d99b4c8" style="width: 100.0%; height: 100.0%;">Maristes, Grand-Dakar</div>')[0];
+                popup_38075fefc64a42edaf78c0a6ff47dc88.setContent(html_6a17d7ffd23e49ea9608619f1d99b4c8);
+            
+
+            marker_aac8ca29379546049f718c01a5059a4c.bindPopup(popup_38075fefc64a42edaf78c0a6ff47dc88);
+
+            
+        
+    
+
+            var marker_edace512daea4771a5e877db5112775f = L.marker(
+                [14.7245795,-17.4532336],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_bbb0d8965d9948f1862555aca8269726 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_edace512daea4771a5e877db5112775f.setIcon(icon_bbb0d8965d9948f1862555aca8269726);
+            
+    
+            var popup_c9cbaee4dd0b4b058f32d384fd0e999d = L.popup({maxWidth: '300'});
+
+            
+                var html_10326f7ebdb04166b2ac21ba0758de36 = $('<div id="html_10326f7ebdb04166b2ac21ba0758de36" style="width: 100.0%; height: 100.0%;">Castor, Parcelles Assainies</div>')[0];
+                popup_c9cbaee4dd0b4b058f32d384fd0e999d.setContent(html_10326f7ebdb04166b2ac21ba0758de36);
+            
+
+            marker_edace512daea4771a5e877db5112775f.bindPopup(popup_c9cbaee4dd0b4b058f32d384fd0e999d);
+
+            
+        
+    
+
+            var marker_cca46dbef5584b91b382936847bfc39b = L.marker(
+                [14.713563800000001,-17.4491848],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_555af5add93948a7b3dfc61b328bf8a0 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cca46dbef5584b91b382936847bfc39b.setIcon(icon_555af5add93948a7b3dfc61b328bf8a0);
+            
+    
+            var popup_20cc3b3fe6374fca8d1e3f48cf672be1 = L.popup({maxWidth: '300'});
+
+            
+                var html_738254b5ecce4db8b77cdfd9ed25b82c = $('<div id="html_738254b5ecce4db8b77cdfd9ed25b82c" style="width: 100.0%; height: 100.0%;">Bene Tally, Grand-Dakar</div>')[0];
+                popup_20cc3b3fe6374fca8d1e3f48cf672be1.setContent(html_738254b5ecce4db8b77cdfd9ed25b82c);
+            
+
+            marker_cca46dbef5584b91b382936847bfc39b.bindPopup(popup_20cc3b3fe6374fca8d1e3f48cf672be1);
+
+            
+        
+    
+
+            var marker_fa85874755544f35820bd168413ff438 = L.marker(
+                [14.7369486,-17.464522],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_a2613e028125411d8f073025c7e629d6 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa85874755544f35820bd168413ff438.setIcon(icon_a2613e028125411d8f073025c7e629d6);
+            
+    
+            var popup_074bbdf8e4eb4bf8b2b29f0e30d8b8e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_035817f085974004a3f5cb70f2f9ab4a = $('<div id="html_035817f085974004a3f5cb70f2f9ab4a" style="width: 100.0%; height: 100.0%;">Grand Yoff, Parcelles Assainies</div>')[0];
+                popup_074bbdf8e4eb4bf8b2b29f0e30d8b8e3.setContent(html_035817f085974004a3f5cb70f2f9ab4a);
+            
+
+            marker_fa85874755544f35820bd168413ff438.bindPopup(popup_074bbdf8e4eb4bf8b2b29f0e30d8b8e3);
+
+            
+        
+    
+
+            var marker_e2be3e122bf546ffbacb4b7e012bf9c8 = L.marker(
+                [14.7722048,-17.3668812],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_1766154e798c4618863622ddbaba92ee = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e2be3e122bf546ffbacb4b7e012bf9c8.setIcon(icon_1766154e798c4618863622ddbaba92ee);
+            
+    
+            var popup_50727c5013274de5ba2490f3801e7d9f = L.popup({maxWidth: '300'});
+
+            
+                var html_10f4fccb4dfa4ab79e442d239ad81bbd = $('<div id="html_10f4fccb4dfa4ab79e442d239ad81bbd" style="width: 100.0%; height: 100.0%;">Yeumbeul, Niayes</div>')[0];
+                popup_50727c5013274de5ba2490f3801e7d9f.setContent(html_10f4fccb4dfa4ab79e442d239ad81bbd);
+            
+
+            marker_e2be3e122bf546ffbacb4b7e012bf9c8.bindPopup(popup_50727c5013274de5ba2490f3801e7d9f);
+
+            
+        
+    
+
+            var marker_953edd75e8c24954865ea5177a8a442e = L.marker(
+                [14.7292187,-17.471353699999998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_ab73ea5f93fe4677816fb30c4c3285a3 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_953edd75e8c24954865ea5177a8a442e.setIcon(icon_ab73ea5f93fe4677816fb30c4c3285a3);
+            
+    
+            var popup_7c25723e69f44fd19971026364b2c18a = L.popup({maxWidth: '300'});
+
+            
+                var html_c0a210d50f604823bca9ac50ab925cc3 = $('<div id="html_c0a210d50f604823bca9ac50ab925cc3" style="width: 100.0%; height: 100.0%;">LIBERTÉ 6, Grand-Dakar</div>')[0];
+                popup_7c25723e69f44fd19971026364b2c18a.setContent(html_c0a210d50f604823bca9ac50ab925cc3);
+            
+
+            marker_953edd75e8c24954865ea5177a8a442e.bindPopup(popup_7c25723e69f44fd19971026364b2c18a);
+
+            
+        
+    
+
+            var marker_65ce35fb172c40e9ba1b2c535f7710b2 = L.marker(
+                [14.706520900000001,-17.449635],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_bf8aa8f5f87c4e5d93394307e67f98e3 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_65ce35fb172c40e9ba1b2c535f7710b2.setIcon(icon_bf8aa8f5f87c4e5d93394307e67f98e3);
+            
+    
+            var popup_66ba3d0b470a4edeb706baeef79ab36f = L.popup({maxWidth: '300'});
+
+            
+                var html_c55c2fb6b17249c2a3aedc89aaba50b9 = $('<div id="html_c55c2fb6b17249c2a3aedc89aaba50b9" style="width: 100.0%; height: 100.0%;">Ouagou Niaye, Grand-Dakar</div>')[0];
+                popup_66ba3d0b470a4edeb706baeef79ab36f.setContent(html_c55c2fb6b17249c2a3aedc89aaba50b9);
+            
+
+            marker_65ce35fb172c40e9ba1b2c535f7710b2.bindPopup(popup_66ba3d0b470a4edeb706baeef79ab36f);
+
+            
+        
+    
+
+            var marker_91fc270194de4cbc9599a2481bc76a40 = L.marker(
+                [14.7163995,-17.455852399999998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e7ba5e84d190441a85d5ade74be3bc77);
+            
+    
+
+                var icon_9d0a9b4725c64f1eabbe078b368f09a8 = L.AwesomeMarkers.icon({
+                    icon: 'map-marker',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_91fc270194de4cbc9599a2481bc76a40.setIcon(icon_9d0a9b4725c64f1eabbe078b368f09a8);
+            
+    
+            var popup_ef863aa332704d7bb9f524db2923fa46 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6e07d6b430b4254ad788c8203b9ee56 = $('<div id="html_b6e07d6b430b4254ad788c8203b9ee56" style="width: 100.0%; height: 100.0%;">Liberté 3, Dakar</div>')[0];
+                popup_ef863aa332704d7bb9f524db2923fa46.setContent(html_b6e07d6b430b4254ad788c8203b9ee56);
+            
+
+            marker_91fc270194de4cbc9599a2481bc76a40.bindPopup(popup_ef863aa332704d7bb9f524db2923fa46);
+
+            
+        
+</script>
